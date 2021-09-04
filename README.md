@@ -18,7 +18,7 @@ A Java Chat application that makes use of sockets and multicast addresses to sen
 2. If both commands are successful, run the command ``java MyServer``, then in a separate command prompt run the command ``java MyClient``.
 3. After running those two commands, a connection is established where you can now start sending messages from the Server to the Client and vice versa.
 
-### a) The Groupchat communication model
+### b) The Groupchat communication model
 1. To simulate a GroupChat, open your command prompt and run the command ``javac GroupChat.java``.
 2. After that, open several command prompts and run the command ``java GroupChat <multicast-host> <port-number>``. In ``<multicast-host>`` fill in a multicast address of your choice, and in ``<port-number>``, fill in a port number of your choice. Example, ``java GroupChat 224.0.0.0 330``.
 3. After running the commands successfully, you will be prompted to enter your name. Since you are simulating the application on a local environment, you can key in different names.
